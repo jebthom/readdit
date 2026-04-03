@@ -1,0 +1,975 @@
+/* ==========================================================================
+   Readdit — Old Reddit Faithful Stylesheet
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #222;
+  background: #eff7ff;
+}
+
+a {
+  color: #369;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Header ---- */
+
+#header {
+  background: #cee3f8;
+  border-bottom: 1px solid #5f99cf;
+  padding: 2px 10px;
+  display: flex;
+  align-items: center;
+  height: 44px;
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+#header .logo-icon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+#header .logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #369;
+  letter-spacing: -0.5px;
+}
+
+#header .logo-text:hover {
+  text-decoration: none;
+}
+
+/* ---- Subreddit dropdown ---- */
+
+#sr-dropdown {
+  position: relative;
+  margin-left: 12px;
+  align-self: center;
+}
+
+#sr-dropdown .sr-dropdown-btn {
+  display: inline-block;
+  padding: 3px 18px 3px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #369;
+  background: #fff;
+  border: 1px solid #5f99cf;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+}
+
+#sr-dropdown .sr-dropdown-btn::after {
+  content: '';
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #369;
+}
+
+#sr-dropdown .sr-dropdown-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: #fff;
+  border: 1px solid #5f99cf;
+  z-index: 100;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#sr-dropdown:hover .sr-dropdown-list,
+#sr-dropdown .sr-dropdown-list:hover {
+  display: block;
+}
+
+#sr-dropdown .sr-dropdown-list a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #369;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#sr-dropdown .sr-dropdown-list a:last-child {
+  border-bottom: none;
+}
+
+#sr-dropdown .sr-dropdown-list a:hover {
+  background: #cee3f8;
+  text-decoration: none;
+}
+
+/* ---- Tab menu ---- */
+
+#header .tabmenu {
+  margin-left: 8px;
+  display: flex;
+  gap: 0;
+  align-self: flex-end;
+}
+
+#header .tabmenu a {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #369;
+  background: #eff7ff;
+  border: 1px solid #5f99cf;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  margin-right: 2px;
+}
+
+#header .tabmenu a.selected,
+#header .tabmenu a:hover {
+  background: #fff;
+  color: #000;
+}
+
+#header .sr-name {
+  margin-left: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* ---- User bar ---- */
+
+#header .user-bar {
+  margin-left: auto;
+  font-size: 11px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#header .user-bar .darkmode-btn {
+  background: none;
+  border: 1px solid #5f99cf;
+  color: #369;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#header .user-bar .darkmode-btn:hover {
+  background: #fff;
+}
+
+/* ---- Page layout ---- */
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  padding: 10px 10px 20px 10px;
+}
+
+.content-main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ---- Sidebar ---- */
+
+.sidebar {
+  width: 310px;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.sidebar .sidebox {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.sidebar .sidebox-title {
+  background: #cee3f8;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #369;
+  text-transform: uppercase;
+}
+
+.sidebar .sidebox-content {
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.sidebar .sub-info {
+  font-size: 12px;
+}
+
+.sidebar .sub-info .subscriber-count {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.sidebar .sub-info .users-here {
+  font-size: 11px;
+  color: #888;
+}
+
+.sidebar .chapter-nav a {
+  display: block;
+  padding: 3px 0;
+  color: #369;
+  font-size: 12px;
+}
+
+.sidebar .chapter-nav a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .chapter-nav a.current {
+  font-weight: bold;
+  color: #000;
+}
+
+.sidebar .rules li {
+  margin-bottom: 4px;
+  font-size: 12px;
+  list-style-position: inside;
+}
+
+.sidebar .book-cover {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* ---- Menubar / sort options ---- */
+
+.menubar {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  padding: 8px 10px;
+  margin-bottom: 0;
+  font-size: 11px;
+  color: #888;
+}
+
+.menubar a {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #369;
+  cursor: pointer;
+}
+
+.menubar a.selected {
+  color: #ff4500;
+}
+
+/* ---- Post listing ---- */
+
+.post-listing {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  border-top: none;
+}
+
+.post {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post .vote-col {
+  width: 40px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.vote-arrow {
+  cursor: pointer;
+  width: 15px;
+  height: 14px;
+  background: none;
+  border: none;
+  font-size: 0;
+  position: relative;
+  display: block;
+}
+
+.vote-arrow::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.vote-arrow.up::after {
+  transform: translate(-50%, -50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #c6c6c6;
+}
+
+.vote-arrow.up:hover::after,
+.vote-arrow.up.active::after {
+  border-bottom-color: #ff4500;
+}
+
+.vote-arrow.down::after {
+  transform: translate(-50%, -50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #c6c6c6;
+}
+
+.vote-arrow.down:hover::after,
+.vote-arrow.down.active::after {
+  border-top-color: #9494ff;
+}
+
+.vote-score {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+  margin: 2px 0;
+}
+
+.post .thumb {
+  width: 70px;
+  height: 50px;
+  flex-shrink: 0;
+  background: #cee3f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #369;
+  margin-right: 10px;
+  border: 1px solid #b0c4de;
+}
+
+.post .post-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.post .post-title {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.post .post-title a {
+  color: #369;
+}
+
+.post .post-title a:visited {
+  color: #551a8b;
+}
+
+.post .post-meta {
+  font-size: 10px;
+  color: #888;
+}
+
+.post .post-meta a {
+  color: #888;
+}
+
+.post .post-meta .author {
+  color: #369;
+}
+
+.post .post-buttons {
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.post .post-buttons a {
+  color: #888;
+  margin-right: 8px;
+}
+
+.post .post-buttons a:hover {
+  text-decoration: underline;
+  color: #369;
+}
+
+/* ---- Thread view ---- */
+
+.thread-header {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  padding: 12px;
+  margin-bottom: 0;
+}
+
+.thread-header .post-title {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.thread-header .post-meta {
+  font-size: 10px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.thread-header .read-chapter-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 16px;
+  background: #cee3f8;
+  border: 1px solid #5f99cf;
+  color: #369;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.thread-header .read-chapter-btn:hover {
+  background: #b8d4ed;
+  text-decoration: none;
+}
+
+.thread-header .chapter-nav-links {
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+.thread-header .chapter-nav-links a {
+  margin-right: 10px;
+}
+
+/* ---- Comments ---- */
+
+.comments-area {
+  background: #fff;
+  border: 1px solid #c6c6c6;
+  border-top: none;
+  padding: 10px;
+}
+
+.comment-sort {
+  font-size: 11px;
+  color: #888;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.comment-sort a {
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.comment {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.comment .comment-inner {
+  border-left: 2px solid #e5e5e5;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+.comment .collapse-btn {
+  cursor: pointer;
+  color: #888;
+  font-size: 11px;
+  font-family: monospace;
+  margin-right: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.comment .collapse-btn:hover {
+  color: #369;
+}
+
+.comment .comment-header {
+  font-size: 11px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.comment .comment-author {
+  font-weight: bold;
+  color: #369;
+}
+
+.comment .comment-flair {
+  font-size: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 1px 6px;
+  border-radius: 2px;
+  color: #555;
+}
+
+.comment .comment-score {
+  color: #888;
+  font-size: 11px;
+}
+
+.comment .comment-time {
+  color: #888;
+  font-size: 11px;
+}
+
+.comment .comment-body {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #222;
+  margin: 6px 0;
+  word-wrap: break-word;
+}
+
+.comment .comment-body p {
+  margin-bottom: 8px;
+}
+
+.comment .comment-body p:last-child {
+  margin-bottom: 0;
+}
+
+.comment .comment-body blockquote {
+  border-left: 3px solid #c6c6c6;
+  padding-left: 8px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.comment .comment-body ul,
+.comment .comment-body ol {
+  margin: 6px 0 6px 20px;
+}
+
+.comment .comment-body strong {
+  font-weight: bold;
+}
+
+.comment .comment-body em {
+  font-style: italic;
+}
+
+.comment .comment-buttons {
+  font-size: 10px;
+  font-weight: bold;
+  color: #888;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.comment .comment-buttons a,
+.comment .comment-buttons span {
+  color: #888;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.comment .comment-buttons a:hover {
+  text-decoration: underline;
+  color: #369;
+}
+
+.comment .comment-vote {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: 4px;
+}
+
+.comment .comment-vote .vote-arrow {
+  width: 12px;
+  height: 12px;
+}
+
+.comment .comment-vote .vote-arrow.up::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 6px solid #c6c6c6;
+}
+
+.comment .comment-vote .vote-arrow.up:hover::after,
+.comment .comment-vote .vote-arrow.up.active::after {
+  border-bottom-color: #ff4500;
+}
+
+.comment .comment-vote .vote-arrow.down::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #c6c6c6;
+}
+
+.comment .comment-vote .vote-arrow.down:hover::after,
+.comment .comment-vote .vote-arrow.down.active::after {
+  border-top-color: #9494ff;
+}
+
+.comment.collapsed .comment-body,
+.comment.collapsed .comment-buttons,
+.comment.collapsed .comment-replies {
+  display: none;
+}
+
+/* ---- Pager ---- */
+
+.pager {
+  text-align: center;
+  padding: 12px;
+  font-size: 12px;
+  color: #888;
+}
+
+.pager a {
+  font-weight: bold;
+  margin: 0 6px;
+}
+
+/* ---- Footer ---- */
+
+#footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 11px;
+  color: #999;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 20px;
+}
+
+/* ---- Empty state ---- */
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #c6c6c6;
+}
+
+/* ---- Loading ---- */
+
+.loading {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   Dark Mode
+   ========================================================================== */
+
+html.dark body {
+  background: #1a1a1b;
+  color: #d7dadc;
+}
+
+html.dark a {
+  color: #4fbcff;
+}
+
+html.dark #header {
+  background: #1a1a2e;
+  border-bottom-color: #343456;
+}
+
+html.dark #header .logo-text {
+  color: #4fbcff;
+}
+
+html.dark #header .tabmenu a {
+  background: #272733;
+  border-color: #343456;
+  color: #4fbcff;
+}
+
+html.dark #header .tabmenu a.selected,
+html.dark #header .tabmenu a:hover {
+  background: #1a1a1b;
+  color: #d7dadc;
+}
+
+html.dark #header .sr-name {
+  color: #d7dadc;
+}
+
+html.dark #header .user-bar {
+  color: #818384;
+}
+
+html.dark #header .user-bar .darkmode-btn {
+  border-color: #343456;
+  color: #4fbcff;
+}
+
+html.dark #header .user-bar .darkmode-btn:hover {
+  background: #272733;
+}
+
+html.dark #sr-dropdown .sr-dropdown-btn {
+  background: #272733;
+  border-color: #343456;
+  color: #4fbcff;
+}
+
+html.dark #sr-dropdown .sr-dropdown-btn::after {
+  border-top-color: #4fbcff;
+}
+
+html.dark #sr-dropdown .sr-dropdown-list {
+  background: #272733;
+  border-color: #343456;
+}
+
+html.dark #sr-dropdown .sr-dropdown-list a {
+  color: #4fbcff;
+  border-bottom-color: #3a3a4a;
+}
+
+html.dark #sr-dropdown .sr-dropdown-list a:hover {
+  background: #1a1a2e;
+}
+
+html.dark .sidebar .sidebox {
+  background: #1a1a1b;
+  border-color: #343536;
+}
+
+html.dark .sidebar .sidebox-title {
+  background: #1a1a2e;
+  border-bottom-color: #343536;
+  color: #4fbcff;
+}
+
+html.dark .sidebar .sidebox-content {
+  color: #d7dadc;
+}
+
+html.dark .sidebar .sub-info .users-here {
+  color: #818384;
+}
+
+html.dark .sidebar .chapter-nav a {
+  color: #4fbcff;
+}
+
+html.dark .sidebar .chapter-nav a.current {
+  color: #d7dadc;
+}
+
+html.dark .menubar {
+  background: #1a1a1b;
+  border-color: #343536;
+  color: #818384;
+}
+
+html.dark .menubar a {
+  color: #4fbcff;
+}
+
+html.dark .menubar a.selected {
+  color: #ff4500;
+}
+
+html.dark .post-listing {
+  background: #1a1a1b;
+  border-color: #343536;
+}
+
+html.dark .post {
+  border-bottom-color: #343536;
+}
+
+html.dark .post .thumb {
+  background: #1a1a2e;
+  border-color: #343456;
+  color: #4fbcff;
+}
+
+html.dark .post .post-title a {
+  color: #4fbcff;
+}
+
+html.dark .post .post-title a:visited {
+  color: #9b59b6;
+}
+
+html.dark .post .post-meta {
+  color: #818384;
+}
+
+html.dark .post .post-meta a {
+  color: #818384;
+}
+
+html.dark .post .post-meta .author {
+  color: #4fbcff;
+}
+
+html.dark .post .post-buttons a {
+  color: #818384;
+}
+
+html.dark .post .post-buttons a:hover {
+  color: #4fbcff;
+}
+
+html.dark .vote-score {
+  color: #818384;
+}
+
+html.dark .vote-arrow.up::after {
+  border-bottom-color: #555;
+}
+
+html.dark .vote-arrow.down::after {
+  border-top-color: #555;
+}
+
+html.dark .thread-header {
+  background: #1a1a1b;
+  border-color: #343536;
+}
+
+html.dark .thread-header .post-meta {
+  color: #818384;
+}
+
+html.dark .thread-header .read-chapter-btn {
+  background: #1a1a2e;
+  border-color: #343456;
+  color: #4fbcff;
+}
+
+html.dark .thread-header .read-chapter-btn:hover {
+  background: #272733;
+}
+
+html.dark .comments-area {
+  background: #1a1a1b;
+  border-color: #343536;
+}
+
+html.dark .comment-sort {
+  color: #818384;
+  border-bottom-color: #343536;
+}
+
+html.dark .comment .comment-inner {
+  border-left-color: #343536;
+}
+
+html.dark .comment .collapse-btn {
+  color: #818384;
+}
+
+html.dark .comment .collapse-btn:hover {
+  color: #4fbcff;
+}
+
+html.dark .comment .comment-author {
+  color: #4fbcff;
+}
+
+html.dark .comment .comment-flair {
+  background: #272733;
+  border-color: #3a3a4a;
+  color: #818384;
+}
+
+html.dark .comment .comment-score {
+  color: #818384;
+}
+
+html.dark .comment .comment-time {
+  color: #818384;
+}
+
+html.dark .comment .comment-body {
+  color: #d7dadc;
+}
+
+html.dark .comment .comment-body blockquote {
+  border-left-color: #4a4a4a;
+  color: #999;
+}
+
+html.dark .comment .comment-buttons a,
+html.dark .comment .comment-buttons span {
+  color: #818384;
+}
+
+html.dark .comment .comment-buttons a:hover {
+  color: #4fbcff;
+}
+
+html.dark .comment .comment-vote .vote-arrow.up::after {
+  border-bottom-color: #555;
+}
+
+html.dark .comment .comment-vote .vote-arrow.down::after {
+  border-top-color: #555;
+}
+
+html.dark .empty-state {
+  background: #1a1a1b;
+  border-color: #343536;
+  color: #818384;
+}
+
+html.dark #footer {
+  color: #555;
+  border-top-color: #343536;
+}

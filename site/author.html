@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readdit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <a class="logo" href="index.html">
+      <span class="logo-icon">&#128218;</span>
+      <span class="logo-text">readdit</span>
+    </a>
+    <div id="sr-dropdown">
+      <button class="sr-dropdown-btn">my subreddits</button>
+      <div class="sr-dropdown-list"></div>
+    </div>
+    <div class="tabmenu">
+      <a href="index.html">front page</a>
+    </div>
+    <span class="sr-name" id="sr-name"></span>
+    <div class="user-bar">
+      <button class="darkmode-btn" id="darkmode-toggle" onclick="toggleDarkMode()">light mode</button>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="content-main" id="content">
+      <div class="loading">Loading...</div>
+    </div>
+    <div class="sidebar" id="sidebar"></div>
+  </div>
+
+  <div id="footer">
+    readdit &mdash; a reading group disguised as a website
+  </div>
+
+  <script src="app.js"></script>
+  <script>renderAuthorPage();</script>
+</body>
+</html>

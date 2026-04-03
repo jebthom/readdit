@@ -1,0 +1,29 @@
+{
+  "title": "Gender Trouble",
+  "author": "Judith Butler",
+  "author_slug": "judith-butler",
+  "book_slug": "gender-trouble",
+  "processed_at": "2026-04-02T00:00:00+00:00",
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "Subjects of Sex/Gender/Desire",
+      "comment_count": 4
+    },
+    {
+      "chapter_number": 2,
+      "title": "Prohibition, Psychoanalysis, and the Law",
+      "comment_count": 4
+    },
+    {
+      "chapter_number": 3,
+      "title": "Subversive Bodily Acts",
+      "comment_count": 4
+    },
+    {
+      "chapter_number": 4,
+      "title": "Conclusion: From Parody to Politics",
+      "comment_count": 4
+    }
+  ]
+}
