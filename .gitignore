@@ -1,4 +1,4 @@
-chapters/
+/chapters/
 venv/
 __pycache__/
 *.pyc
