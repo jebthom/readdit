@@ -3,7 +3,7 @@
    ========================================================================== */
 
 // Set this to the local path where chapter PDFs live.
-const CHAPTERS_ROOT = "../chapters/";
+const CHAPTERS_ROOT = "/chapters/";
 
 // ---------------------------------------------------------------------------
 // Dark mode

